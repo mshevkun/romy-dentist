@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="description" content="Clínica dental RomDen - Especialistas en odontología avanzada en Lima. Cirugías, implantes, ortodoncia y más. ¡Agenda tu cita!">
+
+
+  <!-- Bootstrap CSS -->
+  <link href="style/bootstrap-reboot.min.css" rel="stylesheet">
+  <link href="style/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style/fonts.css" rel="stylesheet">
+  <link href="style/style.css" rel="stylesheet">
+  <link href="style/media.css" rel="stylesheet">
+
+  <!-- comparison-slider -->
+  <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
+
+  <title>Dentist</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container d-flex top-bar-wrapper">
+      <div class="row top-bar d-flex align-items-center">
+        <div class="col-5"></div>
+        <div class="col-3 topBar-section">
+          <i class="fa fa-clock-o topBar__icon" aria-hidden="true"></i>
+          <span class="btIconWidgetTitle">Lunes a Viernes</span>
+          <span class="btIconWidgetText">8AM - 9PM</span>
+        </div>
+        <div class="col-4 topBar-section">
+          <i class="fa fa-map-marker topBar__icon" aria-hidden="true"></i>
+          <span class="btIconWidgetTitle">Ubicación</span>
+          <span class="btIconWidgetText">Jr. San Rafael 294, Urbanización Santa Rosa Mza A Lote 50, Los Olivos,
+            Lima</span>
+        </div>
+      </div>
+    </div>
+
+    <nav class="header-navbar navbar stroke navbar-expand-xl navbar-light bg-light">
+
+
+      <div class="container">
+
+        <div class="mobile-menu-wrapper">
+          <div class="mobile-menu d-flex justify-content-between align-items-center">
+            <div>
+              <a href="#" class="navbar-brand">
+                <img src="img/logo.png" class="logo navbar-brand" alt="Logo de la clínica dental RomDen">
+              </a>
+            </div>
+            <div>
+              <div class="circle">
+                <button class="btn">
+                  <span class="btn__line"></span>
+                  <span class="btn__line"></span>
+                  <span class="btn__line"></span>
+                </button>
+              </div>
+
+              <div class="full-menu">
+                <div class="layer"></div>
+                <nav class="nav">
+                  <ul class="nav__list">
+                    <li class="nav__item">
+                      <a href="#consult-info" class="nav__link">
+                        Nosotros
+                      </a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#services" class="nav__link">
+                        Tratamientos
+                      </a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#gallery" class="nav__link">
+                        Galería
+                      </a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#contacts" class="nav__link">
+                        Contactanos
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="desctop-menu">
+          <a href="#" class="navbar-brand">
+            <img src="img/logo.png" class="navbar-brand"></img>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="#fff" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+              </path>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active menu-section" aria-current="page" href="#consult-info">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-section" href="#services">Tratamientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-section" href="#gallery">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-section" href="#contacts">Contactanos</a>
+              </li>
+              <li class="nav-item nav-item_call-button">
+                <a href="tel:51993671792" class="main-btn nav-tel-btn">
+                  <span class="main-btn__icon">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                  </span>
+                  <span>+51-993-671-792</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="mb-5">
+    <div class="container-fluid presentation-wrapper">
+      <div class="row presentation">
+        <div class="col-12 col-lg-5 presentation__image nopadding">
+          <img src="img/romy-lg.png" class="romy-main-large" alt="Doctor image">
+          <img src="img/romy.png" class="romy-main-image" alt="Doctor image">
+          <img src="img/romy-main-mobile3.png" class="romy-mobile-main-image" alt="Doctor image">
+        </div>
+        <div class="col-12 col-lg-7 presentation__content-block">
+          <div class="presentation__content">
+            <h2 class="presentation__position">Cirujano Dental RomDen</h2>
+            <span class="presentation__name">Romy</span>
+            <span class="presentation__surname">Rodriguez</span>
+            <p class="presentation__text">
+              <h5>¡Bienvenido/a a Nuestra Clínica Dental!</h5>
+              <p>Conoce a la Dra. Romy Rodríguez, Tu Cirujana Dental Personal</p>
+              <p>Al frente de la excelencia en cuidado dental en nuestra comunidad se encuentra la Dra. Romy Rodríguez. Como cirujana dental comprometida y dedicada, la Dra. Rodríguez proporciona servicios dentales integrales con un toque personal inigualable. Nuestra moderna clínica se fundamenta en el compromiso de ofrecer el más alto nivel de atención dental a todos nuestros pacientes.
+                </p> 
+              <p>La Dra. Rodríguez no es solo una dentista, sino una cirujana dental que ha pasado años perfeccionando su oficio, actualizando continuamente sus habilidades con las técnicas y tecnologías más recientes. Con una reputación por su meticulosa atención al detalle, estás en las manos más seguras, ya sea para un chequeo rutinario, un procedimiento quirúrgico complejo o una transformación estética.
+              </p>
+              
+             
+              <p>
+                Tu sonrisa es nuestra pasión, y tu salud es nuestro compromiso. Permite que la Dra. Romy Rodríguez sea tu aliada en el mantenimiento de tu salud oral. Esperamos darte la bienvenida a nuestra familia dental. Qué Elegirnos?
+              </p>
+
+              <p>Agenda una cita hoy para experimentar la diferencia en la atención dental personalizada e integral.</p>
+        
+              </p>
+            <div class="d-flex align-items-center justify-content-between align-items-center">
+              <div class="presentation__signature">
+                <img src="img/sign-4.png" alt="Doctor's signature">
+              </div>
+              <div class="presentation__social-network d-flex align-items-center justify-content-between">
+                <a href="https://api.whatsapp.com/send?phone=51993671792" target="_blank" title="Contact on WhatsApp"
+                  rel="noopener noreferrer">
+                  <div class="whatsapp-button"><i class="fa fa-whatsapp"></i></div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-cover-block">
+        <img class="bottom-cover-block__bg-image" src="img/bottom-cover.png" alt="bottom-cover">
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent">
+    <div class="container">
+      <div class="row benefits">
+        <div class="col-sm-6 col-md-6 col-lg-3 benefits__item">
+          <img src="img/tooth-white.png" alt="" class="benefits__img">
+          <h3 class="benefits-title">Blanqueamiento Dental</h3>
+          <p class="benefits__text">El blanqueamiento dental es un tratamiento estético que realza la belleza de tu sonrisa. Utilizamos técnicas avanzadas y seguras para eliminar manchas y decoloraciones, proporcionando resultados notables y duraderos. ¡Transforma tu sonrisa y aumenta tu confianza con nuestro blanqueamiento dental de alta calidad!</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 benefits__item">
+          <img src="img/tooth-brush.png" alt="" class="benefits__img">
+          <h3 class="benefits-title">Limpieza dental</h3>
+          <p class="benefits__text">La limpieza dental es esencial para mantener una sonrisa saludable. En nuestra clínica, realizamos limpiezas dentales profesionales para eliminar el sarro y la placa, prevenir enfermedades de las encías y mantener sus dientes limpios y brillantes. ¡Agende su limpieza hoy mismo!</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 benefits__item">
+          <img src="img/injection.png" alt="" class="benefits__img">
+          <h3 class="benefits-title">Anestésico moderno</h3>
+          <p class="benefits__text">Los anestésicos modernos garantizan un tratamiento dental sin dolor y seguro. Con avances tecnológicos, ofrecemos anestesia local altamente efectiva y controlada para eliminar el miedo y la incomodidad, transformando tu experiencia en el dentista en una completamente agradable.</p>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 benefits__item">
+          <img src="img/braces.png" alt="" class="benefits__img">
+          <h3 class="benefits-title">Brackets de calidad</h3>
+          <p class="benefits__text">Descubre una sonrisa perfecta con nuestros brackets de alta calidad. Diseñados con precisión y comodidad en mente, ofrecen un tratamiento ortodóncico efectivo para alinear tus dientes. Transforma tu sonrisa y aumenta tu confianza con nuestros brackets de excelencia.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent" id="consult-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-4 consult-info">
+          <div class="consult-info__title">
+            <h2 class="nopadding">Consulta a Romy</h2>
+          </div>
+          <div class="consult-info__contact">
+            <div class="consult-info__tel contact-type">
+              <div class="consult-info__contact-image">
+                <img src="img/call.png" alt="Сall icon">
+              </div>
+              <div class="consult-info__contact-text-block">
+                <h3 class="consult-info-text__title">Llámanos</h3>
+                <a href="tel:51993671792" class="consult-info__contact-text">+51-993-671-792</a>
+              </div>
+            </div>
+            <div class="consult-info__email contact-type">
+              <div class="consult-info__contact-image">
+                <img src="img/mail.png" alt="Сall icon">
+              </div>
+              <div class="consult-info__contact-text-block">
+                <h3 class="consult-info-text__title">Contáctanos</h3>
+                <span class="consult-info__contact-text">romden@gmail.com</span>
+                <span class="consult-info__contact-text">romydentist@gmail.com</span>
+              </div>
+            </div>
+            <div class="consult-info__book contact-type">
+              <div class="consult-info__contact-image">
+                <img src="img/appointment.png" alt="Сall icon">
+              </div>
+              <div class="consult-info__contact-text-block">
+                <h3 class="consult-info-text__title">Agendar Cita</h3>
+                <span class="consult-info__contact-text">Haz clic aquí para reservar una cita.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="consult-info__title">
+            <h2 class="nopadding">Horario de Trabajo
+            </h2>
+          </div>
+          <div class="consult-info__booking">
+            <p class="consult-info__booking-text">Reserva una visita con la Dra. Romy Rodríguez ahora. <br> Verifica sus horas de trabajo y haz clic en Reservar para continuar.</p>
+            <div class="consult-info__timetable">
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Lunes</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time">8AM - 9PM</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792" class="consult-info__book-button main-btn">
+                    <span>Reservar</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Martes</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time">8AM - 9PM</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792" class="consult-info__book-button main-btn">
+                    <span>Reservar</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Miércoles</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time">8AM - 9PM</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792" class="consult-info__book-button main-btn">
+                    <span>Reservar</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Jueves</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time">8AM - 9PM</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792" class="consult-info__book-button main-btn">
+                    <span>Reservar</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Viernes</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time">8AM - 9PM</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792" class="consult-info__book-button main-btn">
+                    <span>Reservar</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="consult-info__week-day-block">
+                <div class="consult-info__week-day">Fines de semana</div>
+                <div class="consult-info__time-and-book-button">
+                  <div class="consult-info__time consult-info__time_closed">Cerrado</div>
+                  <a href="https://api.whatsapp.com/send?phone=51993671792"
+                    class="consult-info__book-button consult-info__book-button_hidden main-btn">
+                    <span>Reservar</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-0 col-lg-1"></div>
+        <div class="col-md-12 col-lg-7 modern-clinic">
+          <h2 class="modern-clinic__title">Clínica de Odontología Moderna</h2>
+          <img src="img/cabinet.jpg" class="modern-clinic__image" alt="Modern Clinic">
+          <p class="modern-clinic__text">
+                <ul class="modern-clinic__list">
+            <li class="modern-clinic__list-item">
+              <div class="modern-clinic__list-content-block">
+                <i class="fa fa-arrow-right modern-clinic__list-item-icon" aria-hidden="true"></i>
+                <span class="modern-clinic__list-item-text">Nuestros Servicios</span>
+                 <p>
+                Nuestra clínica ofrece una gama completa de servicios dentales. Esto incluye odontología general como limpiezas y empastes, procedimientos quirúrgicos avanzados como extracciones de muelas del juicio e implantes dentales, odontología estética incluyendo blanqueamiento dental y carillas, así como tratamientos de ortodoncia como brackets e Invisalign.</p>
+              
+              </div>
+            </li>
+            <li class="modern-clinic__list-item">
+              <div class="modern-clinic__list-content-block">
+                <i class="fa fa-arrow-right modern-clinic__list-item-icon" aria-hidden="true"></i>
+                <span class="modern-clinic__list-item-text">¿Por Qué Elegirnos?</span>
+                <p>
+                Atención Personal: Como profesional independiente, la Dra. Rodríguez ofrece atención indivisa a cada paciente. Desde tu primera consulta, estarás en contacto directo con la Dra. Rodríguez, quien se toma el tiempo para comprender sus necesidades dentales únicas y desarrollar un plan de tratamiento personalizado.</p> 
+  
+              </div>
+            </li>
+            <li class="modern-clinic__list-item">
+              <div class="modern-clinic__list-content-block">
+                <i class="fa fa-arrow-right modern-clinic__list-item-icon" aria-hidden="true"></i>
+                <span class="modern-clinic__list-item-text">Espectro Completo de Cuidado:</span> 
+                <p>
+                Ya sea que necesites un simple chequeo o una cirugía dental compleja, la Dra. Rodríguez cuenta con las habilidades y tecnología para garantizar que tu salud bucal esté en óptimas condiciones. Ofreciendo un espectro completo de servicios dentales bajo un mismo techo, eliminamos la necesidad de referencias y proporcionamos una continuidad de atención sin interrupciones.</p> <p>
+              </p> 
+              </div>
+            </li>
+            <li class="modern-clinic__list-item">
+              <div class="modern-clinic__list-content-block">
+                <i class="fa fa-arrow-right modern-clinic__list-item-icon" aria-hidden="true"></i>
+                <span span class="modern-clinic__list-item-text">Comodidad y Conveniencia:</span>
+                <p>
+                Entendemos que las citas dentales a veces pueden causar ansiedad. Nuestra clínica está diseñada pensando en tu comodidad, ofreciendo un ambiente sereno y confortable. Además, ofrecemos horarios de citas flexibles para adaptarnos a tu agenda ocupada.              </p> 
+              </p>
+              </div>
+            </li>
+            <li class="modern-clinic__list-item">
+              <div class="modern-clinic__list-content-block">
+                <i class="fa fa-arrow-right modern-clinic__list-item-icon" aria-hidden="true"></i>
+                <span class="modern-clinic__list-item-text">Tecnología de Vanguardia:</span> 
+              <p>
+                La Dra. Rodríguez utiliza lo último en tecnología dental, asegurando diagnósticos precisos, tratamientos eficientes y mínimas molestias. Desde rayos X digitales hasta odontología láser, invertimos en tecnología que mejora tu experiencia de cuidado dental.
+              </p> 
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent">
+    <div class="biography-bg">
+      <div class="container">
+        <div class="row biography-row">
+          <div class="col-12 col-md-4 biography">
+            <span class="biography__name">La Dra. Rodríguez</span>
+            <span class="biography__surname">Biografía</span>
+            <p class="biography-text">La Dra. Rodríguez es una especialista en odontología con una sólida trayectoria en el cuidado bucal. Aplica tecnología avanzada para ofrecer tratamientos precisos y personalizados, garantizando el bienestar de sus pacientes. Su enfoque innovador combina ciencia y empatía, logrando resultados óptimos en salud dental.</p>
+          </div>
+          <div class="col-12 col-md-8 biography-tabs">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                  role="tab" aria-controls="home" aria-selected="true">Experiencia Laboral</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                  role="tab" aria-controls="profile" aria-selected="false">Chequeos Médicos</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                  role="tab" aria-controls="contact" aria-selected="false">Premios y Logros</button>
+              </li>
+            </ul>
+            <div class="tab-content biography-tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <ul>
+                  <li>Más de 15 años de experiencia en odontología especializada, brindando atención de alta calidad a pacientes de todas las edades.</li>
+                  <li>Especialista en tratamientos avanzados como implantología, ortodoncia y odontología estética.
+                  </li>
+                  <li>Profesora universitaria en la Facultad de Odontología, formando a nuevos profesionales en el campo de la salud dental.</li>
+                  <li>Participación activa en conferencias internacionales sobre innovación en tratamientos dentales.</li>
+                  <li>Autora de múltiples artículos en revistas científicas sobre salud bucal y nuevas tecnologías en odontología.</li>
+                  <li>Colaboración con hospitales y clínicas privadas en el desarrollo de protocolos de atención odontológica.</li>
+                  <li>Experiencia en odontología pediátrica, asegurando tratamientos adecuados y una experiencia amigable para los niños.</li>
+                  <li>Desarrollo de programas de prevención y concienciación sobre la salud bucodental en colegios y empresas.</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <ul>
+                  <li>Evaluación completa del estado de salud bucal, detección temprana de caries y enfermedades periodontales.</li>
+                  <li>Programas personalizados de prevención y cuidado dental para pacientes con necesidades especiales.</li>
+                  <li>Diagnóstico y tratamiento de trastornos de la articulación temporomandibular (ATM).</li>
+                  <li>Exámenes radiológicos de última generación para un diagnóstico preciso y seguro.</li>
+                  <li>Seguimiento continuo y asesoramiento sobre higiene oral para garantizar la mejor salud bucal.</li>
+                  <li>Aplicación de técnicas de odontología mínimamente invasiva para reducir el dolor y acelerar la recuperación.</li>
+                  <li>Tratamientos preventivos como sellado de fisuras y aplicación de flúor para evitar el desarrollo de caries.</li>
+                  <li>Atención especializada para pacientes con fobias dentales, asegurando una experiencia cómoda y sin estrés.</li>
+                  <li>Evaluaciones odontológicas preoperatorias para pacientes que requieren cirugía en otras especialidades médicas.</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <ul>
+                  <li>Reconocida como "Mejor Odontóloga del Año" por la Asociación Nacional de Odontología.</li>
+                  <li>Premio a la Innovación en Tratamientos Dentales por el desarrollo de nuevas técnicas mínimamente invasivas.</li>
+                  <li>Publicación de investigaciones destacadas en revistas científicas internacionales.</li>
+                  <li>Miembro honorario de diversas asociaciones odontológicas en América Latina y Europa.</li>
+                  <li>Liderazgo en proyectos comunitarios para mejorar la salud dental en poblaciones vulnerables.</li>
+                  <li>Invitada como conferencista en congresos odontológicos en España, México y Argentina.</li>
+                  <li>Reconocida por su compromiso en la formación de nuevas generaciones de odontólogos</li>
+                  <li>Participación en estudios clínicos sobre materiales dentales innovadores y su impacto en la salud oral.</li>
+                  <li>Creación de una clínica de atención odontológica accesible para personas de bajos recursos.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="top-cover-block">
+        <img class="top-cover-block__bg-image" src="img/top-cover.png" alt="top-cover">
+      </div>
+
+      <div class="bottom-cover-block">
+        <img class="bottom-cover-block__bg-image" src="img/bottom-cover.png" alt="bottom-cover">
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent" id="services">
+    <div class="container services">
+      <div class="row section-title-block">
+        <h2 class="section-title-block__title">Nuestra gama de servicios de atención dental</h2>
+        <p class="section-title-block__text">Ofrecemos una amplia gama de servicios dentales de calidad para satisfacer todas tus necesidades.</p>
+      </div>
+      <div class="row services-items-row">
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/teeth-whiting.jpg" class="services-item-image"></img>
+          </div>
+          <div class="services-item-content">
+            <h3 class="services-item-title">Blanqueamiento dental</h3>
+            <p class="services-item-text">Disfruta de un blanqueamiento dental profesional en nuestra clínica, donde utilizamos técnicas avanzadas para brindarte una sonrisa más brillante y radiante. Nuestro tratamiento de blanqueamiento dental te ayudará a recuperar la confianza en tu sonrisa.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/gum-treatment.jpg" class="services-item-image"></img>
+          </div>
+          <div class="services-item-content">
+            <h3 class="services-item-title">tratamiento de encías</h3>
+            <p class="services-item-text">Nuestro equipo está especializado en el tratamiento de encías, brindando soluciones efectivas para mantener la salud periodontal. Desde la prevención y la limpieza profunda hasta tratamientos avanzados, estamos comprometidos en cuidar de tus encías y asegurar una sonrisa saludable.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/restore.jpg" class="services-item-image"></img>
+          </div>
+
+          <div class="services-item-content">
+            <h3 class="services-item-title">Restauraciones</h3>
+            <p class="services-item-text">En nuestra clínica dental, te ofrecemos excelentes opciones de restauraciones dentales para devolver la funcionalidad y estética a tu sonrisa. Desde empastes hasta coronas y puentes, contamos con soluciones personalizadas para restaurar y mejorar la salud de tus dientes.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/implante.jpg" class="services-item-image"></img>
+          </div>
+
+          <div class="services-item-content">
+            <h3 class="services-item-title">Odontología de implantes</h3>
+            <p class="services-item-text">Nuestros servicios de odontología de implantes brindan soluciones duraderas y estéticas para reemplazar dientes perdidos, restaurando tu sonrisa y función dental. Confía en nuestro equipo experto para ofrecerte resultados excepcionales en odontología de implantes.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/consious-sedction.jpg" class="services-item-image"></img>
+          </div>
+
+          <div class="services-item-content">
+            <h3 class="services-item-title">Canal raíz</h3>
+            <p class="services-item-text">El tratamiento de conducto radicular es un procedimiento especializado que puede salvar dientes dañados y aliviar el dolor dental. Confía en nuestro equipo experto para realizar tratamientos de canal de raíz de manera efectiva y brindarte alivio duradero.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 services-item">
+          <div class="services-item-image__container">
+            <img src="img/ortodo.jpg" class="services-item-image"></img>
+          </div>
+
+          <div class="services-item-content">
+            <h3 class="services-item-title">Ortodoncia</h3>
+            <p class="services-item-text">Nuestro servicio de ortodoncia está diseñado para corregir la alineación dental y lograr una sonrisa hermosa y saludable. Contamos con opciones modernas, como brackets y alineadores transparentes, para adaptarnos a tus necesidades y brindarte resultados excepcionales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent">
+    <div class="container teeth-whitening">
+      <div class="row align-items-center">
+
+
+        <div class="col-12 col-md-6 teeth-whitening__content">
+          <h3 class="teeth-whitening__title">Sonrisa perfecta,</h3>
+          <h2 class="teeth-whitening__title">Excelencia definida</h2>
+          <p class="teeth-whitening__text">El blanqueamiento dental es una opción rápida y efectiva para mejorar tu sonrisa. Nuestros pacientes quedan maravillados al descubrir cómo una visita a RomDen puede transformar drásticamente el aspecto de sus dientes. Obtén resultados sorprendentes y una sonrisa radiante en poco tiempo..</p>
+          <div class="teeth-whitening__progress-bar">
+            <span class="progress-bar__title">Satisfacción Dental</span>
+            <div class="teeth-whitening__background">
+              <div class="teeth-whitening__progress-inner" style="width: 98%;"></div>
+            </div>
+          </div>
+
+          <div class="teeth-whitening__progress-bar">
+            <span class="progress-bar__title">Tasa de éxito</span>
+            <div class="teeth-whitening__background">
+              <div class="teeth-whitening__progress-inner" style="width: 100%;"></div>
+            </div>
+          </div>
+
+          <div class="teeth-whitening__progress-bar">
+            <span class="progress-bar__title">Satisfacción de costos</span>
+            <div class="teeth-whitening__background">
+              <div class="teeth-whitening__progress-inner" style="width: 92%;"></div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 teeth-whitening__comparison-slider">
+          <img-comparison-slider class="comparison-slider slider-example-focus slider-example-opacity-and-size">
+            <img slot="first" width="100%" src="img/teeth-before.jpg">
+            <img slot="second" width="100%" src="img/teeth-after.jpg">
+          </img-comparison-slider>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__indent container-gallery" id="gallery">
+    <div class="container">
+      <div class="row section-title-block">
+        <h2 class="section-title-block__title">Galería</h2>
+        <p class="section-title-block__text">En nuestra clínica dental, nos enorgullece brindar atención de calidad a un gran número de pacientes cada año. A continuación, te presentamos una variedad de servicios que ofrecemos para satisfacer tus necesidades dentales.</p>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row carousel-wrapper">
+        <div class="carousel-wrapper">
+          <div class="carousel">
+            <div class="gallery">
+              <div class="item item-1"></div>
+              <div class="item item-2"></div>
+              <div class="item item-3"></div>
+              <div class="item item-4"></div>
+              <div class="item item-5"></div>
+              <div class="item item-6"></div>
+              <div class="item item-7"></div>
+              <div class="item item-8"></div>
+              <div class="item item-9"></div>
+              <div class="item item-10"></div>
+              <div class="item item-11"></div>
+              <div class="item item-12"></div>
+              <div class="item item-13"></div>
+              <div class="item item-14"></div>
+            </div>
+          </div>
+          <!-- </section> -->
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="section__indent" id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2 class="contact-us__title">Contáctenos</h2>
+          <p class="contact-us__text">¡Nos encantaría saber de ti! Si tienes alguna pregunta, consulta o deseas programar una cita, no dudes en contactarnos. Nuestro amable equipo está listo para ayudarte en todo lo que necesites. Ya sea por teléfono, correo electrónico o visitándonos en persona, estaremos encantados de atenderte y brindarte la atención dental excepcional que mereces. ¡Esperamos poder cuidar de tu sonrisa!</p>
+          <div class="contact-us-type">
+            <div class="consult-us-info__contact-image consult-us-info__contact-image_active">
+              <img src="img/dental-insurance.png" alt="Сall icon">
+            </div>
+            <div class="consult-us-info__contact-text-block">
+              <h3 class="consult-us-info-text__title consult-us-info-text__title_active">Teléfono</h3>
+              <span class="consult-us-info__contact-text">+51-993-671-792</span>
+            </div>
+          </div>
+          <div class="contact-us-type">
+            <div class="consult-us-info__contact-image">
+              <img src="img/mail.png" alt="Сall icon">
+            </div>
+            <div class="consult-us-info__contact-text-block">
+              <h3 class="consult-us-info-text__title">Dirección</h3>
+              <span class="consult-us-info__contact-text">Jr. San Rafael 294, Urbanizacian Santa Rosa Mza A Lote
+                50</span>
+              <span class="consult-us-info__contact-text">Los Olivos, Lima, 15302, Peru</span>
+            </div>
+          </div>
+          <div class="contact-us-type">
+            <div class="consult-us-info__contact-image">
+              <img src="img/dental.png" alt="Сall icon">
+            </div>
+            <div class="consult-us-info__contact-text-block">
+              <h3 class="consult-us-info-text__title">Contáctanos</h3>
+              <span class="consult-us-info__contact-text">romden@gmail.com</span>
+              <span class="consult-us-info__contact-text">romydentist@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 map-section">
+          <div class="map-section__background">
+            <img src="img/Map.png" alt="">
+          </div>
+          <div class="map-section__map">
+            <iframe class="map-iframe" src="https://maps.google.com/maps?q=-12.007624,-77.080961&z=16&output=embed"
+              height="700" width="600" style="margin-top: -70px"></iframe>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-bg">
+      <div class="container footer">
+        <div class="row">
+          <div class="center-block d-flex justify-content-center">
+            <img src="img/logo.png" class="footer__logo" alt="logo">
+          </div>
+        </div>
+        <div class="row d-flex justify-content-between">
+          <div class="col-sm-12 col-md-6 col-lg-3 footer-col">
+            <p class="footer-col__text">Somos un equipo comprometido de dentistas, higienistas y recepcionistas que trabajan juntos para garantizar que recibas el mejor tratamiento posible.
+            </p>
+            <h4 class="footer-col__phone-title">Teléfono de emergencia 24/7</h4>
+            <div class="footer-col-phones-block">
+              <i class="fa fa-phone footer-col-phones-block__icon" aria-hidden="true"></i>
+              <a href="tel:51993671792" class="footer-col-phones-block__tel">+51-993-671-792</a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 footer-col footer-col-about">
+            <h3 class="footer-col__title">Sobre RomDen</h3>
+            <ul class="footer-col-about__list">
+              <li class="footer-col-about__el">Nuestro Equipo Dental</li>
+              <li class="footer-col-about__el">Nuestros Premios</li>
+              <li class="footer-col-about__el">Servicios Dentales</li>
+              <li class="footer-col-about__el">Precios y Tarifas</li>
+              <li class="footer-col-about__el">Nuestras Soluciones</li>
+              <li class="footer-col-about__el">Clientes y Testimonios</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 footer-col footer-col-awards">
+            <h3 class="footer-col__title">Nuestros Premios</h3>
+            <img src="img/img-award.png" class="footer-col-awards__logo" alt="">
+            <ul class="footer-col-awards__list">
+              <li class="footer-col-awards__el">Mejor Cuidado al Paciente 2019</li>
+              <li class="footer-col-awards__el">Mejor Práctica & Mejor Equipo 2018</li>
+              <li class="footer-col-awards__el">Mejor Equipo & Práctica 2017</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 footer-col-hours">
+            <h3 class="footer-col__title">Horario de Atención</h3>
+
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Lunes</div>
+              <div class="footer-col-hours-wrapper__time">8AM - 9PM</div>
+            </div>
+
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Martes</div>
+              <div class="footer-col-hours-wrapper__time">8AM - 9PM</div>
+            </div>
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Miércoles</div>
+              <div class="footer-col-hours-wrapper__time">8AM - 9PM</div>
+            </div>
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Jueves</div>
+              <div class="footer-col-hours-wrapper__time">8AM - 9PM</div>
+            </div>
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Viernes</div>
+              <div class="footer-col-hours-wrapper__time">8AM - 9PM</div>
+            </div>
+            <div class="footer-col-hours-wrapper d-flex justify-content-between">
+              <div class="footer-col-hours-wrapper__week-day">Sábado - Domingo</div>
+              <div class="footer-col-hours-wrapper__time">Cerrado</div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row footer-bottom d-flex align-items-center justify-content-between">
+          <div class="col-lg-6 col-md-12 footer-nav nopadding">
+            <ul class="footer-nav__list d-flex">
+              <li class="footer-nav__elem">
+                <a href="#consult-info">Sobre Nosotros</a>
+              </li>
+              <li class="footer-nav__elem">
+                <a href="#services">Servicios</a>
+              </li>
+              <li class="footer-nav__elem">
+                <a href="#gallery">Galería</a>
+              </li>
+              <li class="footer-nav__elem">
+                <a href="#contacts">Contacto</a>
+              </li>
+              <li class="footer-nav__elem">
+                <a href="#">
+                  <i class="fa fa-angle-up footer-nav__elem-icon"></i>Volver arriba</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="top-cover-block">
+        <img class="top-cover-block__bg-image" src="img/top-cover.png" alt="top-cover">
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

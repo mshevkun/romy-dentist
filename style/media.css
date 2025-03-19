@@ -1,0 +1,600 @@
+@media screen and (min-device-width:992px) {
+  .map-iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (min-device-width:1200px) {
+  .container {
+    padding: 0;
+  }
+
+  .navbar-nav li {
+    display: block;
+  }
+}
+
+.container {
+  max-width: 1260px;
+}
+
+@media screen and (min-device-width:1400px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-device-width:1450px) {
+  .romy-main-large {
+    display: block;
+  }
+
+  .romy-main-image,
+  .romy-mobile-main-image {
+    display: none;
+  }
+
+  .benefits__text {
+    max-width: 300px;
+  }
+
+  .map-section__map {
+    margin: 0 0 0 auto;
+  }
+
+  .map-section__background {
+    left: auto;
+  }
+}
+
+@media screen and (min-device-width:1600px) {
+  .comparison-slider {
+    max-width: 600px;
+  }
+
+  .section__indent {
+    margin-top: 150px !important;
+  }
+
+  .top-bar {
+    font-size: 18px;
+  }
+
+  nav ul li .menu-section {
+    font-size: 19px;
+  }
+
+  .nav-tel-btn {
+    font-size: 18px;
+  }
+
+  .presentation__position {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .presentation__name {
+    font-size: 35px;
+    line-height: 25px;
+  }
+
+  .presentation__surname {
+    font-size: 70px;
+    line-height: 65px;
+  }
+
+  .presentation__text {
+    font-size: 20px;
+  }
+
+  .benefits-title {
+    font-size: 28px;
+  }
+
+  .benefits__text {
+    font-size: 18px;
+    max-width: 340px;
+  }
+
+  .modern-clinic__title {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+
+  .modern-clinic__text {
+    font-size: 18px;
+    color: #181818;
+    margin-top: 25px;
+  }
+
+  .modern-clinic__list-content-block {
+    font-size: 18px;
+  }
+
+  .consult-info__title h2 {
+    font-size: 31px;
+  }
+
+  .navbar-brand img {
+    max-height: inherit;
+  }
+
+  .consult-info-text__title,
+  .consult-us-info-text__title {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .consult-info__contact-image img,
+  .consult-us-info__contact-image img {
+    max-width: 62px;
+  }
+
+  .consult-info__contact-image,
+  .consult-us-info__contact-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .consult-info__contact-text,
+  .consult-us-info__contact-text {
+    font-size: 18px;
+  }
+
+  .consult-info__contact-text-block,
+  .consult-us-info__contact-text-block {
+    margin-left: 20px;
+    line-height: 28px;
+    max-width: 290px;
+  }
+
+  p.consult-info__booking-text {
+    font-size: 18px;
+  }
+
+  .biography__name {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .biography__surname {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 30px;
+  }
+
+  .biography-text {
+    font-size: 18px;
+    max-width: 400px;
+  }
+
+  .nav-link,
+  .tab-pane {
+    font-size: 18px;
+  }
+
+  .section-title-block__title {
+    font-size: 40px;
+  }
+
+  .section-title-block__text {
+    font-size: 18px;
+  }
+
+  h3.teeth-whitening__title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .teeth-whitening__text {
+    font-size: 18px;
+  }
+
+  .progress-bar__title {
+    margin-bottom: 4px;
+    font-size: 18px;
+  }
+
+  .contact-form-content__title {
+    font-size: 40px;
+  }
+
+  .contact-form-content__text,
+  .contact-us__text {
+    font-size: 18px;
+  }
+
+  .contact-form-content__button main-btn {
+    font-size: 16px;
+  }
+
+  .contact-us__title {
+    font-size: 48px;
+    margin-bottom: 25px;
+  }
+
+  .map-section__map {
+    max-width: 730px;
+  }
+
+  .map-iframe {
+    height: 750px !important;
+  }
+
+  .consult-info-text__title,
+  .consult-us-info-text__title {
+    font-size: 35px;
+    line-height: 38px;
+  }
+
+  .footer-col__text {
+    font-size: 18px;
+  }
+
+  .footer-col__phone-title,
+  .footer-col__title {
+    font-size: 25px;
+  }
+
+  .footer-col-phones-block {
+    font-size: 18px;
+  }
+
+  .footer-col-about__el,
+  .footer-col-awards__el {
+    font-size: 18px;
+  }
+
+  .footer-col-hours-wrapper__week-day,
+  .footer-col-hours-wrapper__time,
+  .footer-nav__elem {
+    font-size: 18px;
+  }
+
+  .carousel-wrapper .gallery {
+    width: 4000px;
+  }
+}
+
+
+
+@media screen and (max-device-width:1320px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-device-width:1200px) {
+  .mobile-menu-wrapper {
+    display: block;
+  }
+
+  .desctop-menu {
+    display: none !important;
+  }
+
+  .presentation__content {
+    max-width: 82%;
+    margin: 180px auto 0px;
+  }
+
+  .top-bar {
+    display: none !important;
+  }
+
+  .nav-item_call-button {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
+  .nav-item_call-button .nav-tel-btn {
+    box-shadow: 0 2px 10px rgb(255 255 255 / 60%);
+  }
+
+  .navbar {
+    padding-top: 0px;
+  }
+
+  .biography-tabs {
+    min-height: 440px;
+  }
+}
+
+@media screen and (max-device-width:1110px) {
+  .contact-form-content__inputs-wrapper {
+    display: inherit;
+  }
+
+  .contact-form-content__input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-form-content__inputs-wrapper {
+    margin-bottom: 0;
+  }
+
+  .carousel-wrapper .gallery {
+    width: 2000px;
+  }
+
+  .biography-tabs {
+    min-height: 510px;
+  }
+}
+
+
+
+
+
+@media screen and (max-device-width:1000px) {
+  .presentation__content {
+    margin-top: 100px;
+  }
+
+  .carousel-wrapper .gallery {
+    width: 1800px;
+  }
+}
+
+@media screen and (max-device-width:992px) {
+  .presentation__content {
+    margin-top: 60px;
+    padding-bottom: 25px;
+  }
+
+  .romy-main-image {
+    display: none;
+  }
+
+  .romy-mobile-main-image {
+    display: block;
+  }
+
+  .benefits__item {
+    margin-bottom: 50px;
+  }
+
+  .benefits__text {
+    max-width: 285px;
+  }
+
+  .footer-col {
+    max-width: inherit;
+  }
+
+  .footer-col-hours-wrapper {
+    max-width: 300px;
+  }
+
+  .footer__social-network,
+  .footer-nav__list {
+    justify-content: center !important;
+    margin-top: 25px !important;
+  }
+
+  .modern-clinic {
+    margin-top: 50px;
+  }
+
+  .map-section__background {
+    text-align: center;
+  }
+}
+
+@media screen and (max-device-width:890px) {
+  .biography-tabs {
+    min-height: 550px;
+  }
+}
+
+@media screen and (max-device-width:860px) {
+  .contact-form-content {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .contact-form-content__title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-device-width:820px) {
+  .biography-tabs {
+    min-height: 600px;
+  }
+
+  .biography-row {
+    padding-top: 150px;
+    padding-bottom: 20px;
+  }
+}
+
+
+
+@media screen and (max-device-width:800px) {
+  .presentation__content {
+    max-width: 84%;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-device-width:768px) {
+  .biography-tabs {
+    margin-top: 30px;
+  }
+
+  .biography-text {
+    max-width: inherit;
+  }
+
+  .biography__surname {
+    margin-bottom: 20px;
+  }
+
+  .comparison-slider {
+    max-width: inherit;
+    margin-top: 50px;
+  }
+
+  .contact-form-wrapper {
+    margin-left: 0;
+  }
+
+  .teeth-whitening__content {
+    padding-right: 12px;
+  }
+
+  .carousel-wrapper .gallery {
+    width: 1600px;
+  }
+}
+
+@media screen and (max-device-width:600px) {
+  .biography-row {
+    padding-top: 85px;
+    padding-bottom: 50px;
+  }
+
+  .map-iframe {
+    margin-top: 0px !important;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+
+  .map-section__background {
+    display: none;
+  }
+
+  .carousel-wrapper .gallery {
+    width: 1400px;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-device-width:500px) {
+  .carousel-wrapper .gallery {
+    width: 1200px;
+  }
+
+  .biography-tabs {
+    min-height: 595px;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .circle {
+    margin-right: -20px;
+  }
+}
+
+@media screen and (max-device-width:470px) {
+  .biography-tabs {
+    min-height: 620px;
+  }
+}
+
+@media screen and (max-device-width:460px) {
+  .biography-tabs {
+    min-height: 760px;
+  }
+}
+
+@media screen and (max-device-width:410px) {
+  .biography-tabs {
+    min-height: 830px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .btn {
+    top: 23px;
+  }
+
+  .btn__line+.btn__line {
+    margin-top: 5px;
+  }
+
+  .btn__line {
+    width: 28px;
+  }
+
+  .circle {
+    margin-right: -10px;
+  }
+}
+
+@media screen and (max-device-width:400px) {
+  .presentation__signature img {
+    width: 80%;
+  }
+
+  .consult-info {
+    padding: 30px 20px;
+  }
+
+  .map-iframe {
+    height: 300px;
+  }
+
+  .carousel-wrapper .gallery {
+    width: 1100px;
+  }
+
+  .services-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-device-width:380px) {
+  .biography-tabs {
+    min-height: 850px;
+  }
+}
+
+@media screen and (max-device-width:360px) {
+  .biography-tabs {
+    min-height: 880px;
+  }
+}
+
+
+
+@media screen and (max-device-width:340px) {
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .logo {
+    margin-top: 8px;
+}
+
+  .btn__line:nth-child(1) {
+    right: -2px;
+  }
+
+  .btn__line {
+    width: 26px;
+  }
+
+  .btn {
+    right: 17px;
+  }
+
+  .btn__line:nth-child(3) {
+    right: -2px;
+  }
+
+  .biography-tabs {
+    min-height: 900px;
+  }
+}
